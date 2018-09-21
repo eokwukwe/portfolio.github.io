@@ -1,0 +1,14 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "Modern portfolio site",
+  "main": "index.js",
+  "author": "Okwukwe Ewurum",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass scss/main.scss dist/css/styles.css --watch"
+  },
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
