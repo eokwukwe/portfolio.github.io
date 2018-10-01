@@ -94,7 +94,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/portrait.jpg);
+      background: url(../img/portrait-me.jpg);
       border-radius: 50%;
       border: 3px solid $secondary-color;
     }
@@ -120,7 +120,7 @@
     font-size: 30px;
     text-transform: uppercase;
     padding: 1rem 0;
-    color: #fff;
+    color: set-text-color($primary-color);
     font-weight: 300;
     text-decoration: none;
     @include easeOut();
